@@ -1,0 +1,25 @@
+{
+  "name": "BOT BUILD VIA PANEL",
+  "version": "1.0.0",
+  "description": "Bot Telegram untuk build APK Flutter otomatis",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "flutter",
+    "gramjs"
+  ],
+  "author": "@RianModss",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "latest",
+    "telegram": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
